@@ -1,0 +1,66 @@
+{
+   "1": {
+     "NAVEGADOR" : "chrome",
+     "BASEURLSIMULADOR" : "https://inventarios.vecindariosuite.com/proyecto/torre3/simular",
+     "NAME_TOWERS": "AGRUPACION DE VIVIENDA BOSQUE DE ARRAYAN",
+     "NAME" : "Mariana sin subsidio",
+     "LASTNAME" : "Automatizacion",
+     "EMAIL" : "testing.vecindario.5sdhf1@vecindario.com",
+     "NUMBERDOCUMENT" : "10123255",
+     "MOBILE" : "+34643909813",
+     "INCOMEUSERFAMILY" : "1000000",
+     "CAJACOMPENSACION" : "COLSUBSIDIO",
+     "PRIMAS" : "100000",
+     "CESANTIAS" : "100000",
+     "CUOTASPERZONA" : "100000",
+     "SIMULACIONWHITSUBSIDY": "no"
+   },
+   "2": {
+     "NAVEGADOR" : "chrome",
+     "BASEURLSIMULADOR" : "https://inventarios.vecindariosuite.com/proyecto/torre3/simular",
+     "NAME_TOWERS": "AGRUPACION DE VIVIENDA BOSQUE DE ARRAYAN",
+     "NAME" : "Mariana con subsidio",
+     "LASTNAME" : "Automatizacion",
+     "EMAIL" : "testing.vecindario.6sffhf3d@vecindario.com",
+     "NUMBERDOCUMENT" : "10123255",
+     "MOBILE" : "+34643909813",
+     "INCOMEUSERFAMILY" : "1000000",
+     "CAJACOMPENSACION" : "COLSUBSIDIO",
+     "PRIMAS" : "100000",
+     "CESANTIAS" : "100000",
+     "CUOTASPERZONA" : "100000",
+     "SIMULACIONWHITSUBSIDY": "si"
+   },
+   "3": {
+     "NAVEGADOR" : "chrome",
+     "BASEURLAGENDADOR" : "https://calendarios.vecindariosuite.com/proyecto/torre3/agendar",
+     "TYPE" : "digital",
+     "NAME": "MARIANA AUTO fisica",
+     "LASTNAME" : "Automatizacion",
+     "EMAIL" : "testing.vecindario.6@vecindario.com",
+     "COUNTRY": "Spain",
+     "MOBILE": "643909813"
+   },
+   "4": {
+     "NAVEGADOR" : "chrome",
+     "BASEURLAGENDADOR" : "https://calendarios.vecindariosuite.com/proyecto/torre3/agendar",
+     "TYPE" : "digital",
+     "NAME": "MARIANA AUTO digital",
+     "LASTNAME" : "Automatizacion",
+     "EMAIL" : "testing.vecindario.7@vecindario.com",
+     "COUNTRY": "Spain",
+     "MOBILE": "643909813"
+   },
+
+   "5": {
+     "NAVEGADOR" : "firefox",
+     "BASEURLPREAPROVADOS" : "https://preaprobados.vecindario.com/entidades-finacieras/torre3",
+     "NAME": "MARIANA prueba ",
+     "LASTNAME" : "preaproved",
+     "MOBILE": "643909813",
+     "EMAIL" : "testing.vecindario.9@vecindario.com",
+     "OTHERPHONE": "3105981312",
+     "ADRESS": "calle 100 numero 60",
+     "AMOUNTSOLI" : "100000000000"
+   }
+}
