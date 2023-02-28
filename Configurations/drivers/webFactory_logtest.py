@@ -4,7 +4,8 @@ from Configurations.properties.constans import *
 from Configurations.properties.properties_users import *
 from dotenv import load_dotenv
 
-load_dotenv()
+if os.environ.get("PYTHON_ENV") != 'production':
+    load_dotenv()
 
 class Webfactory_lambdaTest():
 
