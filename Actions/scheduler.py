@@ -22,10 +22,12 @@ class Agendator():
         self.driver.execute_script("window.scrollBy(0,500)")
         time.sleep(2)
         self.driver.find_element(By.XPATH,"(//div[@class='HourSelect_hour__1HVfQ'])[1]").click()
-        self.driver.find_element(By.ID,"seleccion-horario-cta").click()
+        #self.driver.find_element(By.ID,"seleccion-horario-cta").click()
+        self.driver.find_element(By.TAG_NAME, "button").click()
         time.sleep(2)
 
     def datesuser(self,NAME,LASTNAME,EMAIL,COUNTRY,MOBILE):
+        time.sleep(2)
         self.driver.find_element(By.NAME,"name").send_keys(NAME)
         self.driver.find_element(By.NAME, "lastname").send_keys(LASTNAME)
         self.driver.find_element(By.NAME, "email").send_keys(EMAIL)
