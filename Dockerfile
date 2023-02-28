@@ -1,12 +1,14 @@
 FROM python:2.7.17-alpine
 
+ARG TEST_NAME_ARG
+ARG USERNAME_ARG
+ARG ACCES_KEY_ARG
 ARG REPO=test-funcional-suite
-ARG TEST_NAME=test_preaproved
-ENV TEST_TO_EXECUTE=Test/${TEST_NAME}.py
+ENV TEST_TO_EXECUTE=Test/${TEST_NAME_ARG}.py
 ENV APP_DIR=/var/app/${REPO}
-ENV USERNAME=qa.testing
-ENV ACCES_KEY=pTKXtmbr4JmEdVICsRIS5ZXVQxkyN6f3oy2DIs8Qx8CWcChHS9
-ENV PYTHON_ENV = production
+ENV PYTHON_ENV=production
+ENV USERNAME=${USERNAME_ARG}
+ENV ACCES_KEY=${ACCES_KEY_ARG}
 
 RUN addgroup web_app && adduser -S web_app -G web_app
 
