@@ -1,3 +1,4 @@
+import os
 import time
 import json
 from selenium import webdriver
@@ -8,7 +9,8 @@ from ddt import ddt, data, unpack
 from Configurations.properties.constans import *
 from dotenv import load_dotenv
 
-load_dotenv()
+if os.environ.get("PYTHON_ENV") != 'production':
+    load_dotenv()
 
 @ddt
 class test_preaprovesotherbank(unittest.TestCase):

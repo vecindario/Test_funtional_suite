@@ -1,0 +1,8 @@
+venv/
+.env*
+.gitignote
+geclodriver.log
+.idea/
+.pytest_cache/
+.vscode/
+README.md
