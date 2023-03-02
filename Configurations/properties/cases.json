@@ -73,5 +73,9 @@
      "other": "no",
      "CAPACITY": "1000000000",
      "ADRESS": "calle 100 numero 60"
+   },
+    "14": {
+     "NAVEGADOR" : "firefox",
+     "BASEURLCONTACT" : "https://torre3.veci.pro/"
    }
 }

@@ -42,17 +42,3 @@ class Agendator():
         print(thankyou)
         assert "Te esperamos" in thankyou
         time.sleep(2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
