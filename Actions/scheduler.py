@@ -37,7 +37,11 @@ class Agendator():
         self.driver.find_element(By.XPATH,"//li[@data-country-code='es']").click()
         self.driver.find_element(By.CLASS_NAME,"form-control").send_keys(MOBILE)
         self.driver.find_element(By.ID,"agendar-cta").click()
-        time.sleep(5)
+        time.sleep(10)
+        thankyou = self.driver.find_element(By.XPATH, "//h2[@class='Header_day__X2wUu font-text']").text
+        print(thankyou)
+        assert "Te esperamos" in thankyou
+        time.sleep(2)
 
 
 
