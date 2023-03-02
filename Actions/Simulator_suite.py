@@ -117,7 +117,11 @@ class Simulator():
 
     def financial(self):
         self.driver.find_element(By.ID,"generar-simulación-financiación-cta").click()
-        time.sleep(2)
+        time.sleep(15)
+        thankyou = self.driver.find_element(By.XPATH, "(//p[@class='text'])[1]").text
+        print(thankyou)
+        assert thankyou in 'Inmueble o apartamento simulado'
+        time.sleep(4)
 
 
 

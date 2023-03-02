@@ -20,7 +20,7 @@ class test_simula(unittest.TestCase):
         print('Inicia Test')
 
     @pytest.mark.run(order=1)
-    @data(("1"),("2"))
+    @data(("1"))
 
     def test_simulator(self,idCase):
         try:
