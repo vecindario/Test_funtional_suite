@@ -1,7 +1,11 @@
+import os
 from selenium import webdriver
 from Configurations.properties.constans import *
 from Configurations.properties.properties_users import *
-import os
+from dotenv import load_dotenv
+
+if os.environ.get("PYTHON_ENV") != 'production':
+    load_dotenv()
 
 class Webfactory_lambdaTest():
 
