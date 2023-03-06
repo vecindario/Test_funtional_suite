@@ -1,3 +1,4 @@
+import os
 import time
 import json
 from selenium import webdriver
@@ -7,6 +8,10 @@ import unittest, pytest
 from ddt import ddt, data, unpack
 from Configurations.properties.constans import *
 from Configurations.drivers.webFactory_logtest import *
+from dotenv import load_dotenv
+
+if os.environ.get("PYTHON_ENV") != 'production':
+    load_dotenv()
 
 
 @ddt
